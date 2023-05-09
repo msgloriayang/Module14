@@ -6,8 +6,8 @@ This is a CMS-Style blog site similar to Wordpress site, where developers can pu
 * [Features](#features)
 * [Applications](#applications)
 * [Certification](#certification)
-* [User Story](#userstory)
-* [Acceptance Criteria](#acceptancecriteria)
+* [UserStory](#userstory)
+* [AcceptanceCriteria](#acceptancecriteria)
 * [Mock-Up](#mock-up)
 * [Questions](#questions)
 ## Features
