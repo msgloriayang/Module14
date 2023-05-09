@@ -1,7 +1,7 @@
 # Module 14 Challenge
 Model-View-Controller (MVC) Challenge: Tech Blog
 ## Description
-This is a CMS-Style blog site similar to Wordpress site, where developers can publish their blog posts and comment on other developers' posts.
+This is a CMS-Style blog site similar to Wordpress site where developers can publish their blog posts and comment on other developers' posts.
 ## Table of Contents
 * [Features](#features)
 * [Applications](#applications)
