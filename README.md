@@ -5,7 +5,6 @@ This is a CMS-Style blog site similar to Wordpress site where developers can pub
 ## Table of Contents
 * [Features](#features)
 * [Applications](#applications)
-* [Certification](#certification)
 * [User](#user)
 * [Criteria](#criteria)
 * [Mock-Up](#mock-up)
@@ -13,8 +12,6 @@ This is a CMS-Style blog site similar to Wordpress site where developers can pub
 The main feature of this application is that it follows the Model-View-Controller paradigm.
 ## Applications
 MySQL, Sequelize, and Handlebars.js.
-## Certification
-There are currently no certification for this application.
 ## User
 AS A developer who writes about tech<br>
 I WANT a CMS-style blog site<br>
