@@ -1,0 +1,24 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "CMS-style blog site similar to Wordpress site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msgloriayang/Module14.git"
+  },
+  "author": "Gloria Yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msgloriayang/Module14/issues"
+  },
+  "homepage": "https://github.com/msgloriayang/Module14#readme",
+  "dependencies": {
+    "express-handlebars": "^7.0.7",
+    "mysql2": "^3.3.0",
+    "sequelize": "^6.31.1"
+  }
+}
