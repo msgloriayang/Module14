@@ -8,6 +8,8 @@ This is a CMS-Style blog site similar to Wordpress site where developers can pub
 * [User](#user)
 * [Criteria](#criteria)
 * [Mock-Up](#mock-up)
+* [Certification](#certification)
+* [Questions](#questions)
 ## Features
 The main feature of this application is that it follows the Model-View-Controller paradigm.
 ## Applications
@@ -52,3 +54,7 @@ WHEN I am idle on the site for more than a set time<br>
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments<br>
 ## Mock-Up
 Insert screenshot here
+## Certification
+There are currently no certification for this application.
+## Questions
+Please send your questions [here](mailto:lookmeup@gmail.com?subject=[GitHub]%20Dev%20Connect) or visit [github/msgloriayang](https://github.com/msgloriayang).
