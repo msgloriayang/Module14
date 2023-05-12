@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { Post, User, Comment } = require('../models');
-const isAuth = require("../utils/auth");
+const Auth = require("../utils/auth");
 
 router.get("/login", (req, res) => {
     if (req.session.loggedIn) {
@@ -61,13 +61,12 @@ if (req.session.loggedIn = false) {
                 loggedIn: req.session.loggedIn
             });
         } else {
-            res.status(404).json({ message: "No post found with this id" });
+            res.status(404).json({ message: "Not found" });
         }
     } catch (err) {
         console.log(err);
         res.status(500).json(err);
     }
-}
-});
+};
 
 module.exports = router;
