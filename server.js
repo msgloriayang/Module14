@@ -14,18 +14,24 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname,'public')));
 
-// this is for the handlebars
+const sess = {
+    secret: 'Psssst..',
+    rolling: true,
+    cookie: { maxAge: 300000 },
+    resave: false,
+    saveUninitialized: true,
+    store: new exsess.MemoryStore(),
+  };
+
+// this is for the handlebars setup
 app.set('view engine', 'handlebars');
 app.engine('handlebars', handlebars({ helpers: helpers }));
 
 app.use(routes);
 app.use(exsess(sess));
 
-sequelize.sync(
-    { 
-        force: false
-    })
-    .then(() => 
-    {
-        app.listen(PORT, () => console.log('Listening!'));
-    });
+sequelize
+  .sync({ force: false })
+  .then(() => {
+    app.listen(PORT, () => console.log('Listening!'));
+  });
