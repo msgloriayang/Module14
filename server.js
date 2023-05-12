@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname,'public')));
 
 const sess = {
-    secret: 'Psssst..',
+    secret: 'Psssst..issa secret',
     rolling: true,
     cookie: { maxAge: 300000 },
     resave: false,
