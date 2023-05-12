@@ -11,7 +11,7 @@ router.get("/login", (req, res) => {
 });
 
 router.get("/", async (req, res) => {
-    console.log("get all posts")
+    console.log("get posts")
     try {
         const postData = await Post.findAll({
             include: [{
