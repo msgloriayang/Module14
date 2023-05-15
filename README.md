@@ -11,7 +11,7 @@ This is a CMS-Style blog site similar to Wordpress site where developers can pub
 * [Certification](#certification)
 * [Questions](#questions)
 ## Features
-The main feature of this application is that it follows the Model-View-Controller paradigm.
+The main feature of this application is that it will utilizes the latest technologies following the Model-View-Controller paradigm.
 ## Applications
 MySQL, Sequelize, and Handlebars.js.
 ## User
