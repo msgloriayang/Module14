@@ -7,7 +7,7 @@ const sequelize = new Sequelize('database', 'username', 'password', {
     host: 'localhost',
     dialect: 'mysql',
   });
-
+ac
 //Create a comment
 router.post("/", Auth, async (req, res) => {
     try {
